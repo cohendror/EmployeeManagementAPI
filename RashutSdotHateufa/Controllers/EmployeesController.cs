@@ -2,11 +2,14 @@
 using Microsoft.EntityFrameworkCore;
 using RashutSdotHateufa.Data;
 using RashutSdotHateufa.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace RashutSdotHateufa.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class EmployeesController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -16,39 +19,67 @@ namespace RashutSdotHateufa.Controllers
             _context = context;
         }
 
-        // Get all employees
+        // ✅ Get All Employees with Department Name & Latest Salary
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
+        public async Task<ActionResult<IEnumerable<object>>> GetEmployees()
         {
-            return await _context.Employees.ToListAsync();
+            var employees = await _context.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Salaries) // ✅ Include salary records
+                .Select(e => new
+                {
+                    e.EmployeeId,
+                    e.Name,
+                    DepartmentName = e.Department.Name,
+                    LatestSalary = e.Salaries.OrderByDescending(s => s.PaymentDate).Select(s => s.Amount).FirstOrDefault()
+                })
+                .ToListAsync();
+
+            return Ok(employees);
         }
 
-        // Get an employee by ID
+        // ✅ Get a Single Employee by ID
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> GetEmployee(int id)
+        public async Task<ActionResult<object>> GetEmployee(int id)
         {
-            var employee = await _context.Employees.FindAsync(id);
+            var employee = await _context.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Salaries)
+                .Where(e => e.EmployeeId == id)
+                .Select(e => new
+                {
+                    e.EmployeeId,
+                    e.Name,
+                    DepartmentName = e.Department.Name,
+                    Salaries = e.Salaries.OrderByDescending(s => s.PaymentDate).Select(s => new
+                    {
+                        s.Amount,
+                        s.PaymentDate
+                    }).ToList()
+                })
+                .FirstOrDefaultAsync();
 
             if (employee == null)
             {
                 return NotFound();
             }
 
-            return employee;
+            return Ok(employee);
         }
 
-        // Create a new employee
+        // ✅ Create a New Employee
         [HttpPost]
-        public async Task<ActionResult<Employee>> AddEmployee(Employee employee)
+        public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
         {
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetEmployee), new { id = employee.EmployeeId }, employee);
         }
 
-        // Update an existing employee
+        // ✅ Update an Existing Employee
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateEmployee(int id, Employee employee)
+        public async Task<IActionResult> PutEmployee(int id, Employee employee)
         {
             if (id != employee.EmployeeId)
             {
@@ -63,7 +94,7 @@ namespace RashutSdotHateufa.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Employees.Any(e => e.EmployeeId == id))
+                if (!EmployeeExists(id))
                 {
                     return NotFound();
                 }
@@ -76,7 +107,7 @@ namespace RashutSdotHateufa.Controllers
             return NoContent();
         }
 
-        // Delete an employee
+        // ✅ Delete an Employee
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {
@@ -90,6 +121,12 @@ namespace RashutSdotHateufa.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        // ✅ Helper Method to Check if Employee Exists
+        private bool EmployeeExists(int id)
+        {
+            return _context.Employees.Any(e => e.EmployeeId == id);
         }
     }
 }
