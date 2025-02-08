@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\rashutsdothateufa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\rashutsdothateufa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|c:\\users\\cohen\\source\\repos\\rashutsdothateufa\\rashutsdothateufa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2950D845-1603-4BEA-9DDE-7DE70FB3EF89}|RashutSdotHateufa\\RashutSdotHateufa.csproj|solutionrelative:rashutsdothateufa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "RashutSdotHateufa\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:50:10.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RashutSdotHateufa\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:43:26.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\Models\\Salary.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Models\\Salary.cs",
+              "RelativeToolTip": "RashutSdotHateufa\\Models\\Salary.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:41:56.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Models\\Department.cs",
+              "RelativeToolTip": "RashutSdotHateufa\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:27:00.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Models\\Employee.cs",
+              "RelativeToolTip": "RashutSdotHateufa\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:25:29.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RashutSdotHateufa.csproj",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\RashutSdotHateufa.csproj",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\RashutSdotHateufa.csproj",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\RashutSdotHateufa.csproj",
+              "RelativeToolTip": "RashutSdotHateufa\\RashutSdotHateufa.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-08T14:16:43.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Program.cs",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\Program.cs",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\Program.cs",
+              "RelativeToolTip": "RashutSdotHateufa\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:24:19.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\appsettings.json",
+              "RelativeDocumentMoniker": "RashutSdotHateufa\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cohen\\source\\repos\\RashutSdotHateufa\\RashutSdotHateufa\\appsettings.json",
+              "RelativeToolTip": "RashutSdotHateufa\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T14:23:25.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
